@@ -3,13 +3,13 @@ int main()
 {
   int a;
   scanf("%d",&a);
-  if(a%4==0)
+  if(a%4!=0)
   {
-    printf("yes");
+    printf("no");
   }
   else
   {
-    printf("no");
+    printf("yes");
   }
   return 0;
 }
