@@ -1,5 +1,5 @@
-n=int(input(""))
-tem=n
+c=int(input(""))
+tem=c
 rem=tem//2
 cou=0
 for i in range(1,rem):
