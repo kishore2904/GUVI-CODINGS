@@ -1,4 +1,3 @@
-a=int(input(""))
-b=int(input(""))
-d=a**b
-print(d)
+a,b=input().split()
+a=int(a)
+b=int(b)
