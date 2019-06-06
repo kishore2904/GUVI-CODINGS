@@ -1,4 +1,4 @@
-n=int(input("")
+n=int(input(""))
 tem=n
 rem=tem//2
 cou=0
