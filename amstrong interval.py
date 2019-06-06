@@ -9,4 +9,4 @@ for i in range(num1,num2):
           s=s+rem*rem*rem
           i//=10
      if(a==s):
-        print(a,end" ")
+        print(a,end=" ")
