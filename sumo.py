@@ -1,5 +1,5 @@
-n=input()
+num=input()
 s=0
-for i in n:
+for i in num:
     s=s+int(i)
 print(s)
