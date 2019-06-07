@@ -1,3 +1,3 @@
 num=int(input())
 num1=input().split()
-print(max(b,key=int))
+print(max(num1,key=int))
