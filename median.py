@@ -1,0 +1,6 @@
+num=int(input())
+bx=input()
+bx=bx.split()
+bx=list(map(int,bx))
+bx.sort()
+print(bx[num//2])
