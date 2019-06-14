@@ -1,7 +1,7 @@
 K=int(input())
 n1=list(map(int,input().split()))
 li=[]
-for x in range(K1):
+for x in range(K):
     for i in range(x+1,len(n1)):
         if(n1[i]==n1[x]):
           li.append(n1[x])
