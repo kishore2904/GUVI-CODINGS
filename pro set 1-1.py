@@ -1,12 +1,14 @@
-nm=int(raw_input())
-a=[]
-for k in range(0,nm):  
-    b=raw_input()
-    a.append(b)
-list=[]
-for k in zip(*a):
-    if (k.count(k[0])==len(k)): 
-        list.append(k[0])
-    else:
-        break
-print(''.join(list))
+def common_prefix():
+    list1=[]
+    for i in zip(*b):
+        if (i.count(i[0])==len(i)): 
+            list1.append(i[0])
+        else:
+            break
+    print(''.join(list1))
+a=int(input())
+b=[]
+for i in range(0,a):  
+    u=input()
+    b.append(u)
+common_prefix()
