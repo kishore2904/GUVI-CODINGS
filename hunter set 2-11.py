@@ -4,4 +4,4 @@ def reverseWord(Sentence):
 	newSentence = " ".join(newWords) 
 	return newSentence 
 Sentence = input()
-print(reverseWord(Sentence)
+print(reverseWord(Sentence))
